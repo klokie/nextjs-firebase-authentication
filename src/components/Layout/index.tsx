@@ -39,7 +39,7 @@ const Layout = ({ children }: LayoutProps) => (
 
     <StyledFooter>
       Created by{' '}
-      <a href="https://www.robinwieruch.de/">Robin Wieruch</a>
+      <a href="https://flyingrobotsclub.com/">flying-robots-club</a>
     </StyledFooter>
   </MyLayout>
 );

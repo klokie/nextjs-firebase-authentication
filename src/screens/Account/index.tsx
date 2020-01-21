@@ -65,7 +65,7 @@ const AccountPage = () => {
             <Card title="Troubleshoot">
               <ul>
                 <li>
-                  <a href="mailto:hello@rwieruch.com">Contact</a>
+                  <a href="mailto:flying-robots-club@klokie.com">Contact</a>
                 </li>
               </ul>
             </Card>

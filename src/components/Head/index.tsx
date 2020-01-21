@@ -3,8 +3,8 @@ import Head from 'next/head';
 
 export default () => (
   <Head>
-    <title>RWieruch</title>
-    <meta name="description" content="Courses by Robin Wieruch" />
+    <title>Flying Robots Club</title>
+    <meta name="description" content="Flying Robots Club workshops" />
     <meta name="robots" content="all,follow" />
     <meta name="googlebot" content="index,follow,snippet,archive" />
 
@@ -13,24 +13,24 @@ export default () => (
       content="width=device-width, initial-scale=1.0"
     />
 
-    <meta itemProp="name" content="RWieruch" />
-    <meta itemProp="description" content="Courses by Robin Wieruch" />
+    <meta itemProp="name" content="Flying Robots Club" />
+    <meta itemProp="description" content="Flying Robots Club workshops" />
     <meta itemProp="image" content="/facebook.png" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@rwieruch" />
-    <meta name="twitter:title" content="RWieruch" />
+    <meta name="twitter:site" content="@FlyingRobotsClub" />
+    <meta name="twitter:title" content="FlyingRobotsClub" />
     <meta
       name="twitter:description"
-      content="Courses by Robin Wieruch"
+      content="Flying Robots Club workshops"
     />
     <meta name="twitter:image:src" content="twitter.png" />
-    <meta name="twitter:image:alt" content="RWieruch" />
+    <meta name="twitter:image:alt" content="Flying Robots Club" />
 
-    <meta name="og:site_name" content="RWieruch" />
+    <meta name="og:site_name" content="Flying Robots Club" />
     <meta name="og:type" content="website" />
-    <meta name="og:title" content="RWieruch" />
-    <meta name="og:description" content="Courses by Robin Wieruch" />
+    <meta name="og:title" content="Flying Robots Club" />
+    <meta name="og:description" content="Flying Robots Club workshops" />
     <meta
       name="og:image"
       content="/facebook.png"

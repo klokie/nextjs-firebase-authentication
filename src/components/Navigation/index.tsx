@@ -64,7 +64,7 @@ const Navigation = () => {
           </Menu.SubMenu>
         )}
 
-        {!session.authUser && (
+        {/* {!session.authUser && (
           <Menu.SubMenu style={{ float: 'right' }} title="Courses">
             {MORE_COURSES.map(link => (
               <Menu.Item key={link.title}>
@@ -72,7 +72,7 @@ const Navigation = () => {
               </Menu.Item>
             ))}
           </Menu.SubMenu>
-        )}
+        )} */}
 
         {session.authUser && (
           <Menu.SubMenu style={{ float: 'right' }} title="Courses">
@@ -82,13 +82,13 @@ const Navigation = () => {
               </Menu.Item>
             </Menu.ItemGroup>
 
-            <Menu.ItemGroup key="1" title="More Courses">
+            {/* <Menu.ItemGroup key="1" title="More Courses">
               {MORE_COURSES.map(link => (
                 <Menu.Item key={link.title}>
                   <ExternalCourseLink {...link} />
                 </Menu.Item>
               ))}
-            </Menu.ItemGroup>
+            </Menu.ItemGroup> */}
           </Menu.SubMenu>
         )}
       </Menu>
